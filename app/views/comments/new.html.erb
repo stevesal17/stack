@@ -1,0 +1,11 @@
+<h2>Add a comment</h2>
+
+<%= simple_form_for [@story, @comment] do |form| %>
+	
+	<%= form.input :body, label: "Comment" %>
+
+	<%= form.button :submit %>
+
+
+	 <!-- when in doubt about the synatx then goto Simpleform website https://github.com/plataformatec/simple_form -->
+<% end %>
