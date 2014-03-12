@@ -64,3 +64,7 @@ gem "simple_form"
 # and because Active Admin is a little ou of date, lets get the
 # very latest version
 gem "activeadmin", github: "gregbell/active_admin"
+
+# gems for scrapping reddit
+gem 'httparty'
+gem 'nokogiri'
