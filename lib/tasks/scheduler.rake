@@ -12,7 +12,7 @@ task scrap_reddit: :environment do
 	# in css we would style up the title links using div#siteTable a.Title
 	@real_html.css("div#siteTable a.title").each do |link|
 		# this is similar to the stories/index.html.erb view
-		
+
 
 		@story = Story.new
 		@story.title = link.text
